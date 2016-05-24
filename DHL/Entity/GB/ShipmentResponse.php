@@ -136,6 +136,11 @@ class ShipmentResponse extends Base
             'fractionDigits' => '3',
             'totalDigits' => '18',
         ), 
+        'ShippingChargeInUSD' => array(
+            'type' => 'string',
+            'required' => false,
+            'subobject' => false,
+        ), 
         'InsuredAmount' => array(
             'type' => 'string',
             'required' => false,
