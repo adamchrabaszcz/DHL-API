@@ -329,6 +329,11 @@ class ShipmentResponse extends Base
             'required' => false,
             'subobject' => true,
         ), 
+        'Label' => array(
+            'type' => 'Label',
+            'required' => false,
+            'subobject' => true,
+        ), 
         'CustData' => array(
             'type' => 'string',
             'required' => false,
